@@ -28,6 +28,12 @@ This project is a MERN stack application where users can:
 - **Back-End**: Node.js, Express, MongoDB, Mongoose, GraphQL
 - **Other Tools**: IndexedDB for offline storage, JWT for authentication
 
+## Link
+https://redux-refactor.onrender.com/
+
+### Screenshot 
+![Screenshot 2024-10-13 125537](https://github.com/user-attachments/assets/73e331a6-60d5-429d-a7ac-c4d07c0ebeab)
+
 ## Setup and Installation
 
 ### Prerequisites
