@@ -111,34 +111,10 @@ File Structure
 Key Files and Directories
 plaintext
 Copy code
-Redux-refactor/
-├── client/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── utils/
-│   │   │   ├── auth.js
-│   │   │   ├── authSlice.js
-│   │   │   ├── cartSlice.js
-│   │   │   ├── categorySlice.js
-│   │   │   ├── helpers.js
-│   │   │   ├── mutations.js
-│   │   │   ├── productSlice.js
-│   │   │   ├── queries.js
-│   │   │   ├── store.js
-│   │   │   └── userSlice.js
-│   ├── public/
-│   ├── package.json
-│   └── .env
-├── server/
-│   ├── config/
-│   ├── models/
-│   ├── schemas/
-│   ├── seeds/
-│   ├── package.json
-│   └── .env
-└── README.md
-Key Changes Made
+
+###
+
+Key Changes Made,
 Refactored Components: All components previously using GlobalState now use Redux. Examples include ProductItem.jsx, CartItem.jsx, Detail.jsx, OrderHistory.jsx, and Success.jsx.
 Removed Context API Files: GlobalState.jsx and reducers.js were removed.
 Updated store.js: Consolidated individual slices and configured them in store.js.
