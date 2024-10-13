@@ -38,7 +38,7 @@ This project is a MERN stack application where users can:
 ### Installation Steps
 1. **Clone the Repository**:
    ```bash
-   git clone <[repository-url](https://github.com/jocephuss/Redux-refactor.git)>
+   git clone <(https://github.com/jocephuss/Redux-refactor.git)>
    cd Redux-refactor
 
 ###
